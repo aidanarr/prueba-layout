@@ -14,4 +14,20 @@
         }
     }
 
+    @media (width > 1024px) {
+        padding: $page-padding;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__nav {
+            flex-grow: 0.5;
+            margin-right: 25px;
+        }
+
+        &__title {
+            margin-left: 25px;
+        }
+    }
+
 }
