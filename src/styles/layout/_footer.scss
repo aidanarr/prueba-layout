@@ -1,3 +1,12 @@
-footer {
-    background-color: aqua;
+.footer {
+    background-color: $orange;
+    display: flex;
+    flex-direction: column;
+    padding: $footer-padding;
+
+    &__socials {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

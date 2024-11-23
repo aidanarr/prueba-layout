@@ -4,6 +4,10 @@
     align-items: center;
     padding: $link-padding;
     color: white;   
+
+    &:hover {
+        background-color: $links-hover;
+    }
 }
 
 .navlink {
