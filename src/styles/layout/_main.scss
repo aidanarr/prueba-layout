@@ -1,0 +1,17 @@
+.main {
+    overflow: auto;
+    background-color: $light-gray;
+
+    &__text {
+        background-color: $white;
+        height: 100%;
+        padding: $main-padding;
+
+        article:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+
+

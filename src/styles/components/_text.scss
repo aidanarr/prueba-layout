@@ -1,0 +1,7 @@
+.article {
+    padding: $article-padding;
+    border-bottom: 1px solid $black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
