@@ -1,0 +1,15 @@
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $link-padding;
+    color: white;   
+}
+
+.navlink {
+    background-color: $links;
+}
+
+.socials {
+    background-color: $socials;
+}
