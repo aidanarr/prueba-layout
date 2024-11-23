@@ -9,11 +9,18 @@
         justify-content: center;
     }
 
-    @media (width > 1024px) {
-        padding: $page-padding;
+    @media (width > 500px) {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        &__nav {
+            width: 30%;
+        }
+    }
+
+    @media (width > 1024px) {
+        padding: $page-padding;
 
         &__socials {
             margin: $footer-margin-socials;

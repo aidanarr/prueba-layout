@@ -8,6 +8,7 @@
 
     @media (width > 500px) {
         flex-wrap: wrap;
+
         li {
             width: 50%;
         }
@@ -17,6 +18,16 @@
         flex-wrap: nowrap;
         li {
             width: 100%;
+        }
+    }
+}
+
+.ul-footer {
+    @media (width > 500px) {
+        flex-wrap: nowrap;
+
+        li {
+            width: 50%;
         }
     }
 }
