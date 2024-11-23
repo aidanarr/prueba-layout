@@ -5,8 +5,23 @@
     padding: $footer-padding;
 
     &__socials {
-        width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    @media (width > 1024px) {
+        padding: $page-padding;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &__socials {
+            margin: $footer-margin-socials;
+        }
+
+        &__nav {
+            margin-left: 25px;
+            margin: $footer-margin-nav;
+        }
     }
 }

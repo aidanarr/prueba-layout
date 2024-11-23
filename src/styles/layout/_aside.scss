@@ -1,3 +1,8 @@
 .aside {
     display: none;
+    background-color: $green;
+
+    @media (width > 1024px) {
+        display: block;
+    }
 }
