@@ -14,6 +14,22 @@
         }
     }
 
+    @media (width > 500px) {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__title {
+            justify-content: flex-start;
+        }
+
+        &__nav {
+            max-width: 30%;
+            margin-right: $header-margin;
+        }
+    }
+
     @media (width > 1024px) {
         padding: $page-padding;
         display: flex;
@@ -21,8 +37,8 @@
         align-items: center;
 
         &__nav {
+            max-width: 100%;
             flex-grow: 0.5;
-            margin-right: $header-margin;
         }
 
         &__title {

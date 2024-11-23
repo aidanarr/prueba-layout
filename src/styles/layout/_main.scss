@@ -12,8 +12,11 @@
         }
     }
 
-    @media (width > 1024px) {
+    @media (width > 500px) {
         padding: $page-padding;
+    }
+
+    @media (width > 1024px) {
         display: flex;
     }
 }
