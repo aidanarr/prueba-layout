@@ -3,5 +3,11 @@
     border-bottom: 1px solid $black;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+
+    &__textbox {
+        border-left: 4px solid $gray;
+        margin-left: 30px;
+        padding: $indent-padding;
+    }
 }
