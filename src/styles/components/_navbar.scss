@@ -4,6 +4,19 @@
 
     li {
         width: 100%;
+        animation: links-animation 0.6s forwards 1s;
+    }
+
+    li:nth-child(2) {
+        animation-delay: 1.2s;
+    }
+
+    li:nth-child(3) {
+        animation-delay: 1.4s;
+    }
+
+    li:nth-child(4) {
+        animation-delay: 1.6s;
     }
 
     @media (width > 500px) {
@@ -20,6 +33,16 @@
             width: 100%;
         }
     }
+}
+
+@keyframes links-animation {
+    0%{transform: scale(100%)}
+    50%{transform: scale(115%)}
+    100%{transform: scale(100%)}
+
+    // 0%{transform: translateY(-10px)}
+    // 50%{transform: translateY(10px)}
+    // 80%{transform: translateY(0px)}
 }
 
 .ul-footer {

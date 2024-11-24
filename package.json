@@ -1,7 +1,7 @@
 {
-	"name": "adalab-web-starter-kit",
+	"name": "prueba-layout",
 	"version": "4.0.0",
-	"description": "Adalab web starter kit",
+	"description": "Prueba maquetación",
 	"type": "module",
 	"devDependencies": {
 		"@vituum/vite-plugin-concat": "^1.0.0",
@@ -22,9 +22,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
+		"url": "git+ssh://git@github.com:aidanarr/prueba-layout.git"
 	},
-	"author": "Adalab",
+	"author": "Aida",
 	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"homepage": "https://github.com/aidanarr/prueba-layout"
 }

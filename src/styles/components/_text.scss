@@ -5,9 +5,34 @@
     flex-direction: column;
     gap: 10px;
 
+    &__paragraph {
+        overflow: hidden;
+
+        &--p {
+            animation: paragraph-animation 0.6s forwards;
+        }
+    }
+
     &__textbox {
         border-left: 4px solid $gray;
         margin-left: 30px;
         padding: $indent-padding;
+        overflow: hidden;
+
+        &--p {
+            transform-origin: center left;
+            transform: translateX(-110%);
+            animation: indent-animation 0.6s forwards 0.5s;
+        }
     }
+}
+
+@keyframes paragraph-animation {
+    0%{transform: translateY(-100%)}
+    100%{transform: translateY(0%)}
+}
+
+@keyframes indent-animation {
+    0% {transform: translateX(-110%)}
+    100% {transform: translateX(0%)}
 }
