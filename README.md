@@ -4,7 +4,7 @@ Maquetación de una interfaz siguiendo un diseño.
 La interfaz consta de 3 vistas:
 - Móvil (ancho < 500 px)
 - Tablet (ancho 500px-1024 px)
-- Escritorio (ancho > 1204 px)
+- Escritorio (ancho > 1024 px)
 
 ## Tecnologías
 Este proyecto se ha creado con HTML, CSS y Vite, utilizando Sass como preprocesador de CSS.
