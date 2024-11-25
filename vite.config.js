@@ -26,7 +26,6 @@ const htmlFilesList = Object.fromEntries(
 
 const inputFilesList = {
   ...htmlFilesList,
-  'main': 'src/js/main.js',
 }
 
 export default defineConfig({
